@@ -1,0 +1,5 @@
+services:
+    form.type.tags:
+        class: BSP\TagBundle\Form\Type\TagsType
+        tags:
+            - { name: form.type, alias: tags }
