@@ -1,23 +1,4 @@
 {% block tags_widget %}
     {% set type = type|default('text') %}
-    <input type="{{ type }}" {{ block('widget_attributes') }} value="{{ value }}" />
-	
-	{#% block head_stylesheets %}
-		{{ parent() }}
-		{% stylesheets filter='cssrewrite,?yui_css' '../vendor/xoxco/jquery-tags-input/jquery.tagsinput.css' %}
-			<link href="{{ asset_url }}" type="text/css" rel="stylesheet" />
-		{% endstylesheets %}
-	{% endblock head_stylesheets %}
-	
-	{% block footer_javascripts %}
-		{{ parent() }}
-	    {% javascripts filter="?yui_js"
-	    	'../vendor/xoxco/jquery-tags-input/jquery.tagsinput.min.js'
-	    %}
-			<script src="{{ asset_url }}" type="text/javascript"></script>
-		{% endjavascripts %}
-		<script>
-			$('#registerStore_shoptags').tagsInput();
-		</script>
-	{% endblock footer_javascripts %#}
+    <input type="{{ type }}" {{ block('widget_attributes') }} class="inputTags" value="{{ value }}" />
 {% endblock %}
