@@ -1,8 +1,8 @@
-<?php 
+<?php
 namespace BSP\TagBundle\Form\DataTransformer;
 
 use Symfony\Component\Form\DataTransformerInterface;
- 
+
 class TagsTransformer implements DataTransformerInterface
 {
     /**
@@ -13,10 +13,10 @@ class TagsTransformer implements DataTransformerInterface
         if (!$tags) {
             $tags = array(); // default value
         }
- 
+
         return implode(', ', $tags); // concatenate the tags to one string
     }
- 
+
     /**
       * Transforms the value the users has typed to a value that suits the field in the Document
       */
@@ -25,7 +25,7 @@ class TagsTransformer implements DataTransformerInterface
         if (!$tags) {
             $tags = ''; // default
         }
- 
+
         return array_filter(array_map('trim', explode(',', $tags)));
         // 1. Split the string with commas
         // 2. Remove whitespaces around the tags

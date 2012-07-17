@@ -3,14 +3,14 @@
 namespace BSP\TagBundle\Model;
 
 interface TaggableInterface
-{	
-    function addTag($tag);
+{
+    public function addTag($tag);
 
-    function hasTag($tag);
+    public function hasTag($tag);
 
-    function getTags();
+    public function getTags();
 
-    function removeTag($tag);
+    public function removeTag($tag);
 
-    function setTags(array $tags);
+    public function setTags(array $tags);
 }
