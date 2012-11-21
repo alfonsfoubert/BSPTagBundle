@@ -23,8 +23,8 @@ class BSPTagExtension extends Extension
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.yml');
         
-        $definition = new Definition('BSP\TagBundle\Extension\TagTwigExtension');
+        $definition = new Definition('BSP\TagBundle\Extension\Twig\TagSplitExtension');
         $definition->addTag('twig.extension');
-        $container->setDefinition('tag_twig_extension', $definition);
+        $container->setDefinition('tag_split_extension', $definition);
     }
 }
