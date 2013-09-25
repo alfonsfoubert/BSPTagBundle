@@ -1,0 +1,40 @@
+{
+    "name": "d3r3ck/bsp-tag-bundle",
+    "type": "symfony-bundle",
+    "description": "Tag form type for Symfony2",
+    "keywords": ["tag", "type", "form", "symfony2", "bundle", "bsp"],
+    "homepage": "http://github.com/D3r3ck/BSPTagBundle",
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "Alfons Foubert",
+            "homepage": "http://alfonsfoubert.com",
+            "email" : "afons.foubert@gmail.com"
+        },
+        {
+            "name": "Francesc Roldán",
+            "homepage": "http://twitter.com/kinginyellow"
+        }
+    ],
+
+    "require": {
+        "php":                      ">=5.3.3",
+        "symfony/framework-bundle": "~2.0",
+        "twig/twig":                "~1.5"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "BSP\\TagBundle": ""
+        }
+    },
+
+    "target-dir": "BSP/TagBundle",
+    
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}

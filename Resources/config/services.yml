@@ -8,4 +8,3 @@ services:
         class: BSP\TagBundle\Form\Type\HiddenTagsType
         tags:
             - { name: form.type, alias: hidden_tags }
-            
