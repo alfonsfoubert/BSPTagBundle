@@ -34,7 +34,7 @@ Installation is a 2 step process:
 Now tell composer to download the bundle by running the command:
 
 ``` bash
-$ php composer.phar update avalanche123/imagine-bundle
+$ php composer.phar update d3r3ck/bsp-tag-bundle
 ```
 
 Composer will install the bundle to your project's `vendor/d3r3ck/bsp-tag-bundle` directory.
