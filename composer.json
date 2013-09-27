@@ -3,7 +3,7 @@
     "type": "symfony-bundle",
     "description": "Tag form type for Symfony2",
     "keywords": ["tag", "type", "form", "symfony2", "bundle", "bsp"],
-    "homepage": "http://github.com/D3r3ck/BSPTagBundle",
+    "homepage": "https://github.com/D3r3ck/BSPTagBundle",
     "license": "MIT",
 
     "authors": [
