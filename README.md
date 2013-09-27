@@ -13,7 +13,7 @@ This will perform the transformation between `[ "tag1", "tag2", "tag3" ]` into `
 Installation is a 2 step process:
 
 1. Download BSPTagBundle using composer
-2. Enable de Bundle
+2. Enable the Bundle
 
 ### Step 1: Download BSPTagBundle using composer
 
