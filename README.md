@@ -1,6 +1,6 @@
 # BSPTagBundle
 
-This bundle adds provides easy integration with array of strings for Symfony2. For example with this bundle, the following is possible:
+This bundle provides easy integration with array of strings for Symfony2. For example with this bundle, the following is possible:
 
 ``` php
 $builder->add( 'tags', 'tags' );
